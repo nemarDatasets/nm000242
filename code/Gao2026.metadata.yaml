@@ -1,0 +1,131 @@
+_dataset:
+  class: Gao2026
+  code: Gao2026
+  doi: 10.1038/s41597-025-06512-5
+  interval:
+  - 0
+  - 4
+  n_subjects: 22
+  paradigm: imagery
+acquisition:
+  channel_types:
+    eeg: 32
+  filters:
+    sampling_rate: 1000
+  ground: AFz
+  hardware: Neuracle NeuSenW32
+  line_freq: 50.0
+  montage: standard_1005
+  n_channels: 32
+  reference: CPz
+  sampling_rate: 1000.0
+  sensor_type: Ag/AgCl
+bci_application:
+  applications:
+  - human_machine_interaction
+  environment: laboratory
+cross_validation:
+  cv_method: train-test split
+  evaluation_type:
+  - within_subject
+data_structure:
+  n_trials: 16800
+  trials_context: 20 subjects x 2 sessions x 400 trials + 2 subjects x 1 session x 400 trials = 16800
+documentation:
+  country: CN
+  data_url: https://doi.org/10.6084/m9.figshare.30227503.v1
+  doi: 10.1038/s41597-025-06512-5
+  institution: Kunming University of Science and Technology
+  investigators:
+  - Jing'ao Gao
+  - Yao Liu
+  - Zhengshuang Li
+  - Kaixin Huang
+  - Fan Wang
+  - Jiaping Xu
+  - Lei Zhao
+  - Tianwen Li
+  - Yunfa Fu
+  license: CC-BY-NC-ND-4.0
+  publication_year: 2026
+  repository: Figshare
+experiment:
+  class_labels:
+  - dog
+  - bird
+  - fish
+  - pentagram
+  - square
+  - circle
+  - scissor
+  - watch
+  - cup
+  - chair
+  events:
+    bird: 2
+    chair: 24
+    circle: 13
+    cup: 23
+    dog: 1
+    fish: 3
+    pentagram: 11
+    scissor: 21
+    square: 12
+    watch: 22
+  feedback_type: none
+  mode: offline
+  n_classes: 10
+  paradigm: imagery
+  primary_modality: visual
+  stimulus_modalities:
+  - visual
+  stimulus_type: image cues
+  study_design: Visual imagery of animals, figures, and objects with simultaneous 32-channel EEG recording
+  synchronicity: synchronous
+  trial_duration: 4.0
+file_format: BDF
+paradigm_specific:
+  detected_paradigm: motor_imagery
+  imagery_tasks:
+  - dog
+  - bird
+  - fish
+  - pentagram
+  - square
+  - circle
+  - scissor
+  - watch
+  - cup
+  - chair
+participants:
+  age_max: 23.0
+  age_min: 20.0
+  gender:
+    female: 5
+    male: 17
+  health_status: healthy
+  n_subjects: 22
+  species: human
+runs_per_session: 3
+sessions_per_subject: 2
+signal_processing:
+  classifiers:
+  - EEGNet
+  - CSP+KNN
+  feature_extraction:
+  - CSP
+  - deep_learning
+  frequency_bands:
+    bandpass:
+    - 5.0
+    - 30.0
+  spatial_filters:
+  - CSP
+  - CAR
+tags:
+  modality:
+  - Visual
+  pathology:
+  - Healthy
+  type:
+  - Research
