@@ -1,43 +1,45 @@
 {
-	"Name": "Visual imagery EEG dataset from Gao et al 2026",
-	"BIDSVersion": "1.9.0",
-	"HEDVersion": "8.4.0",
-	"DatasetType": "derivative",
-	"License": "CC-BY-NC-ND-4.0",
-	"Authors": [
-		"Jing'ao Gao",
-		"Yao Liu",
-		"Zhengshuang Li",
-		"Kaixin Huang",
-		"Fan Wang",
-		"Jiaping Xu",
-		"Lei Zhao",
-		"Tianwen Li",
-		"Yunfa Fu"
-	],
-	"ReferencesAndLinks": [
-		"https://doi.org/10.6084/m9.figshare.30227503.v1"
-	],
-	"GeneratedBy": [
-		{
-			"CodeURL": "https://github.com/NeuroTechX/moabb",
-			"Name": "moabb",
-			"Description": "Mother of All BCI Benchmarks",
-			"Version": "1.5.0"
-		}
-	],
-	"SourceDatasets": [
-		{
-			"DOI": "10.1038/s41597-025-06512-5",
-			"URL": "https://doi.org/10.6084/m9.figshare.30227503.v1"
-		}
-	],
-	"Keywords": [
-		"Healthy",
-		"Visual",
-		"Research",
-		"imagery",
-		"human_machine_interaction"
-	],
-	"PublicationYear": 2026
+  "Name": "Visual imagery EEG dataset from Gao et al 2026",
+  "BIDSVersion": "1.9.0",
+  "HEDVersion": "8.4.0",
+  "DatasetType": "derivative",
+  "License": "CC-BY-NC-ND-4.0",
+  "Authors": [
+    "Jing'ao Gao",
+    "Yao Liu",
+    "Zhengshuang Li",
+    "Kaixin Huang",
+    "Fan Wang",
+    "Jiaping Xu",
+    "Lei Zhao",
+    "Tianwen Li",
+    "Yunfa Fu"
+  ],
+  "ReferencesAndLinks": [
+    "https://doi.org/10.6084/m9.figshare.30227503.v1"
+  ],
+  "GeneratedBy": [
+    {
+      "CodeURL": "https://github.com/NeuroTechX/moabb",
+      "Name": "moabb",
+      "Description": "Mother of All BCI Benchmarks",
+      "Version": "1.5.0"
+    }
+  ],
+  "SourceDatasets": [
+    {
+      "DOI": "10.1038/s41597-025-06512-5",
+      "URL": "https://doi.org/10.6084/m9.figshare.30227503.v1"
+    }
+  ],
+  "Keywords": [
+    "Healthy",
+    "Visual",
+    "Research",
+    "imagery",
+    "human_machine_interaction"
+  ],
+  "PublicationYear": 2026,
+  "DatasetDOI": "10.82901/nemar.nm000242",
+  "Version": "1.0.0"
 }
