@@ -1,3 +1,5 @@
+[![DOI](https://img.shields.io/badge/DOI-10.82901%2Fnemar.nm000242-blue)](https://doi.org/10.82901/nemar.nm000242)
+
 # Visual imagery EEG dataset from Gao et al 2026
 
 Visual imagery EEG dataset from Gao et al 2026.
