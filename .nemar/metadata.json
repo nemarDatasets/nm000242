@@ -1,0 +1,99 @@
+{
+  "version": "2.0",
+  "pipeline_stage": "validated",
+  "authors": {
+    "Jing'ao Gao": {
+      "orcid": "0009-0004-7718-5477"
+    },
+    "Yao Liu": {},
+    "Zhengshuang Li": {},
+    "Kaixin Huang": {},
+    "Fan Wang": {
+      "orcid": "0009-0008-8794-5360"
+    },
+    "Jiaping Xu": {},
+    "Lei Zhao": {
+      "orcid": "0000-0003-2775-0031"
+    },
+    "Tianwen Li": {
+      "orcid": "0009-0001-5708-9427"
+    },
+    "Yunfa Fu": {
+      "orcid": "0000-0002-4820-6337"
+    }
+  },
+  "related_identifiers": [
+    {
+      "identifier": "10.1038/s41597-025-06512-5",
+      "identifier_type": "DOI",
+      "relation_type": "IsDerivedFrom"
+    },
+    {
+      "identifier": "10.6084/m9.figshare.30227503.v1",
+      "identifier_type": "DOI",
+      "relation_type": "References"
+    },
+    {
+      "identifier": "https://github.com/nemarDatasets/nm000242",
+      "identifier_type": "URL",
+      "relation_type": "IsDescribedBy"
+    },
+    {
+      "identifier": "https://nemar.org/dataexplorer/detail?dataset_id=nm000242",
+      "identifier_type": "URL",
+      "relation_type": "IsDescribedBy"
+    },
+    {
+      "identifier": "10.21105/joss.01896",
+      "identifier_type": "DOI",
+      "relation_type": "References"
+    },
+    {
+      "identifier": "10.1038/s41597-019-0104-8",
+      "identifier_type": "DOI",
+      "relation_type": "References"
+    }
+  ],
+  "title": "Visual imagery EEG dataset from Gao et al 2026",
+  "license": "CC-BY-NC-ND-4.0",
+  "dataset_type": "derivative",
+  "resource_type_general": "Dataset",
+  "modalities": [
+    "eeg"
+  ],
+  "resource_type_specific": "EEG Dataset",
+  "sizes": [
+    "34.0 GB (126 files)"
+  ],
+  "formats": [
+    ".bdf",
+    ".json",
+    ".md",
+    ".tsv",
+    ".yaml",
+    ".yml"
+  ],
+  "description": "A 32-channel EEG dataset comprising visual imagery recordings from 22 healthy participants performing mental imagery tasks of 10 distinct categories (animals, geometric figures, and objects). The dataset contains 16,800 trials collected across 2 sessions per subject with simultaneous EEG recording at 1000 Hz, designed to support brain-computer interface research and classification algorithm development.",
+  "methods_description": "EEG data were acquired using a Neuracle NeuSenW32 system with 32 Ag/AgCl electrodes positioned according to the standard 1005 montage, referenced to CPz with ground at AFz. Sampling rate was 1000 Hz with 50 Hz line frequency. Participants performed visual imagery tasks of 10 classes (dog, bird, fish, pentagram, square, circle, scissor, watch, cup, chair) with 4-second trial duration, presented via image cues in an offline laboratory setting across 3 runs per session.",
+  "keywords": [
+    {
+      "term": "EEG"
+    },
+    {
+      "term": "visual imagery"
+    },
+    {
+      "term": "brain-computer interfaces"
+    },
+    {
+      "term": "signal classification"
+    },
+    {
+      "term": "neural decoding"
+    },
+    {
+      "term": "human_machine_interaction"
+    }
+  ],
+  "source_hash": "59e48c58da4e204e9bd6d1846526eb8cf92b6e948b56f17412a4249d5bd670f4"
+}
