@@ -2,8 +2,8 @@
   "version": "2.0",
   "pipeline_stage": "enriched",
   "title": "Visual imagery EEG dataset from Gao et al 2026",
-  "description": "A 32-channel EEG dataset comprising visual imagery recordings from 22 healthy participants performing mental imagery tasks of animals, figures, and objects. The dataset includes 16,800 trials collected across 2 sessions per subject with 10 distinct imagery classes, sampled at 1000 Hz. This resource is designed to support brain-computer interface research and benchmarking of classification algorithms for imagery-based paradigms.",
-  "methods_description": "EEG data were acquired using a Neuracle NeuSenW32 system with 32 Ag/AgCl electrodes positioned according to the standard 1005 montage, referenced to CPz with ground at AFz. Signals were sampled at 1000 Hz with a 50 Hz line frequency. Participants performed visual imagery tasks of 10 classes (animals, geometric figures, and objects) with 4-second trial intervals across 3 runs per session. Image cues were presented as visual stimuli in an offline, synchronous paradigm without feedback.",
+  "description": "A 32-channel EEG dataset comprising visual imagery recordings from 22 healthy participants performing imagery tasks of animals, figures, and objects. The dataset includes 16,800 trials collected across 2 sessions per subject with 10 distinct imagery classes, sampled at 1000 Hz using Neuracle NeuSenW32 hardware. This resource supports the development and evaluation of brain-computer interface systems based on visual imagery paradigms.",
+  "methods_description": "EEG data were acquired from 22 healthy participants (17 male, 5 female, ages 20-23 years) using a 32-channel Neuracle NeuSenW32 system with Ag/AgCl sensors at 1000 Hz sampling rate. Participants performed visual imagery tasks of 10 classes (animals, figures, objects) with 4-second trial intervals. Reference electrode was placed at CPz with ground at AFz. Data were collected across 2 sessions per subject with 3 runs per session, using image cues as visual stimuli in an offline, synchronous paradigm without feedback.",
   "license": "CC-BY-NC-ND-4.0",
   "dataset_type": "derivative",
   "authors": {
@@ -38,13 +38,16 @@
       "term": "brain-computer interfaces"
     },
     {
-      "term": "signal classification"
+      "term": "EEG classification"
     },
     {
-      "term": "neural decoding"
+      "term": "human-machine interaction"
     },
     {
-      "term": "human_machine_interaction"
+      "term": "animal imagery"
+    },
+    {
+      "term": "object imagery"
     }
   ],
   "related_identifiers": [
@@ -96,5 +99,5 @@
     ".yml",
     ".zip"
   ],
-  "source_hash": "f508b1f0592959003e49905886401562b8129ab022116fdc8b344a19ed714e57"
+  "source_hash": "1a681262eb26b6fc77e01fe0389df1cf8e5e4b9be71f9e1c46f120ef5fc8aa93"
 }
