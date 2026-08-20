@@ -2,8 +2,8 @@
   "version": "2.0",
   "pipeline_stage": "enriched",
   "title": "Visual imagery EEG dataset from Gao et al 2026",
-  "description": "A 32-channel EEG dataset comprising visual imagery recordings from 22 healthy participants performing imagery tasks of animals, figures, and objects. The dataset includes 16,800 trials collected across 2 sessions per subject with 10 distinct imagery classes, sampled at 1000 Hz using Neuracle NeuSenW32 hardware. This resource supports the development and evaluation of brain-computer interface systems based on visual imagery paradigms.",
-  "methods_description": "EEG data were acquired from 22 healthy participants (17 male, 5 female, ages 20-23 years) using a 32-channel Neuracle NeuSenW32 system with Ag/AgCl sensors at 1000 Hz sampling rate. Participants performed visual imagery tasks of 10 classes (animals, figures, objects) with 4-second trial intervals. Reference electrode was placed at CPz with ground at AFz. Data were collected across 2 sessions per subject with 3 runs per session, using image cues as visual stimuli in an offline, synchronous paradigm without feedback.",
+  "description": "This dataset contains 32-channel EEG recordings from 22 healthy adults performing a visual imagery task involving 10 categories of animals, figures, and objects. Data were collected across two sessions per subject using a Neuracle NeuSenW32 system at 1000 Hz sampling rate, and are formatted according to BIDS for use in brain-computer interface research. The dataset supports evaluation of classification approaches such as CSP and EEGNet for decoding imagined visual categories from EEG signals.",
+  "methods_description": "EEG was recorded from 32 channels using a Neuracle NeuSenW32 system with Ag/AgCl electrodes at a sampling rate of 1000 Hz, referenced to CPz with ground at AFz, following the standard_1005 montage. Subjects performed visual imagery of 10 object/animal/figure categories across 2 sessions of 3 runs each, with trial durations of 4 seconds. Data were bandpass filtered between 5-30 Hz and analyzed using CSP and deep learning (EEGNet) methods within a train-test split, within-subject evaluation scheme.",
   "license": "CC-BY-NC-ND-4.0",
   "dataset_type": "derivative",
   "authors": {
@@ -35,19 +35,19 @@
       "term": "visual imagery"
     },
     {
-      "term": "brain-computer interfaces"
+      "term": "brain-computer interface"
     },
     {
-      "term": "EEG classification"
+      "term": "CSP"
+    },
+    {
+      "term": "EEGNet"
     },
     {
       "term": "human-machine interaction"
     },
     {
-      "term": "animal imagery"
-    },
-    {
-      "term": "object imagery"
+      "term": "motor imagery"
     }
   ],
   "related_identifiers": [
@@ -99,5 +99,5 @@
     ".yml",
     ".zip"
   ],
-  "source_hash": "1a681262eb26b6fc77e01fe0389df1cf8e5e4b9be71f9e1c46f120ef5fc8aa93"
+  "source_hash": "992f3dd895a673a3b8a67f62e057423257cf4141c2fa2638c833e5d7738a5880"
 }
