@@ -1,9 +1,9 @@
 {
   "version": "2.0",
-  "pipeline_stage": "enriched",
+  "pipeline_stage": "validated",
   "title": "Visual imagery EEG dataset from Gao et al 2026",
-  "description": "This dataset contains 32-channel EEG recordings from 22 healthy adults performing a visual imagery task involving 10 categories of animals, figures, and objects. Data were collected across two sessions per subject using a Neuracle NeuSenW32 system at 1000 Hz sampling rate, and are formatted according to BIDS for use in brain-computer interface research. The dataset supports evaluation of classification approaches such as CSP and EEGNet for decoding imagined visual categories from EEG signals.",
-  "methods_description": "EEG was recorded from 32 channels using a Neuracle NeuSenW32 system with Ag/AgCl electrodes at a sampling rate of 1000 Hz, referenced to CPz with ground at AFz, following the standard_1005 montage. Subjects performed visual imagery of 10 object/animal/figure categories across 2 sessions of 3 runs each, with trial durations of 4 seconds. Data were bandpass filtered between 5-30 Hz and analyzed using CSP and deep learning (EEGNet) methods within a train-test split, within-subject evaluation scheme.",
+  "description": "This dataset contains 32-channel EEG recorded from 22 healthy participants performing visual imagery of ten cued items: animals (dog, bird, fish), geometric figures (pentagram, square, circle), and objects (scissor, watch, cup, chair). Each participant completed up to two sessions of three runs, giving 16,800 trials in total. It is intended for developing visual imagery-based brain-computer interfaces and is distributed in BIDS format with HED event annotations.",
+  "methods_description": "EEG was recorded at 1000 Hz with a Neuracle NeuSenW32 system using 32 Ag/AgCl electrodes placed according to the standard 10-05 montage, with CPz as reference and AFz as ground. Participants imagined image-cued stimuli in 4 s trials across 2 sessions of 3 runs each. Benchmarking used EEGNet and CSP+KNN classifiers with 5-30 Hz bandpass filtering.",
   "license": "CC-BY-NC-ND-4.0",
   "dataset_type": "derivative",
   "authors": {
@@ -35,19 +35,23 @@
       "term": "visual imagery"
     },
     {
-      "term": "brain-computer interface"
+      "term": "Brain-Computer Interfaces",
+      "subject_scheme": "MeSH",
+      "scheme_uri": "https://id.nlm.nih.gov/mesh/",
+      "value_uri": "http://id.nlm.nih.gov/mesh/D062207"
     },
     {
-      "term": "CSP"
+      "term": "Electroencephalography",
+      "subject_scheme": "MeSH",
+      "value_uri": "http://id.nlm.nih.gov/mesh/D004569"
     },
     {
-      "term": "EEGNet"
+      "term": "Imagery, Psychotherapy",
+      "subject_scheme": "MeSH",
+      "value_uri": "http://id.nlm.nih.gov/mesh/D019018"
     },
     {
       "term": "human-machine interaction"
-    },
-    {
-      "term": "motor imagery"
     }
   ],
   "related_identifiers": [
@@ -59,7 +63,7 @@
     {
       "identifier": "10.6084/m9.figshare.30227503.v1",
       "identifier_type": "DOI",
-      "relation_type": "References"
+      "relation_type": "IsDerivedFrom"
     },
     {
       "identifier": "https://github.com/nemarDatasets/nm000242",
@@ -88,7 +92,7 @@
     "eeg"
   ],
   "sizes": [
-    "81.0 GB (273 files)"
+    "75.41 GB (273 files)"
   ],
   "formats": [
     ".bdf",
